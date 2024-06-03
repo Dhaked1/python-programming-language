@@ -1,0 +1,10 @@
+#r+ mode
+f = open("test.txt","r+")
+f.write("xyz")
+print(f.read())
+f.close()
+print("\n\n")
+f = open("test.txt","a+")
+print(f.read())
+f.write("abc")
+f.close()
