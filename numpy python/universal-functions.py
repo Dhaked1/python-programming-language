@@ -1,0 +1,36 @@
+import numpy as np
+array1 = np.arange(11)
+print(array1)
+#<------sqrt---------->
+print(np.sqrt(array1))
+#<---------------exponent---------->
+print(np.exp(array1))
+print("\n")
+#<------------random-------->
+array2 = np.random.random(8)
+print(array2)
+#<------------------****some other universal function----------------------->
+print("actual array values:",array1)
+print("square value:",np.square(array1))
+print("\n")
+a = np.sqrt(array1)
+print("squareroot value:",a)
+print("\n")
+print("celling value:",np.ceil(a))
+print("\n")
+print("floor value:",np.floor(a))
+print("\n")
+print("sign value:",np.sign(a))
+print("\n")
+print("Modf value:",np.modf(a))
+print("\n")
+print("rint value:",np.rint(a))
+print("\n")
+print("isnan value:",np.isnan(a))
+print("\n")
+print("isfinite value:",np.isfinite(a))
+print("\n")
+print("cos value:",np.cos(a))
+print("\n")
+print("sin value",np.sin(a))
+

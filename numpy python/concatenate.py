@@ -1,0 +1,25 @@
+import numpy as np
+a = np.arange(1,5)
+b = np.arange(6)
+c = np.arange(6,9)
+print(np.concatenate((a,b,c)))
+#<-------------------*********----------------------->
+c = np.zeros(10)
+print(c)
+print(np.concatenate((a,b),out=c))
+print(c)
+#<----------------------*******--------------------------->
+print('\n')
+a = np.array([[1,2],[3,4]])
+b = np.array([[5,6]])
+c = np.concatenate((a,b))
+print(c)
+print('\n')
+#<----------------**--------------->
+a = np.arange(1,25,2).reshape(2,3,2)
+b = np.arange(2,14,1).reshape(2,3,2)
+print("array a:\n",a)
+print("\n")
+print("array b:\n",b)
+print("\n")
+print(np.concatenate((a,b),axis=1))

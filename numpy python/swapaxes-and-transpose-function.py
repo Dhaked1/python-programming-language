@@ -1,0 +1,12 @@
+import numpy as np
+a = np.array([[2,3,4],[3,5,6]])
+b = np.swapaxes(a, 0, 1)
+print(b)
+c = np.swapaxes(a,1,0)
+print(c)
+print("\n")
+b = a.transpose()
+print('transpose of a')
+print(b)
+print("print matrix a")
+print(a)
