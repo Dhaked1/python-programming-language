@@ -1,0 +1,13 @@
+import collections
+c1 = collections.Counter([1,2,3,4,5])
+c2 = collections.Counter([4,6,7,8])
+print("C1:",c1)
+print("C2:",c2)
+print('\ncombination counts:')
+print(c1+c2)
+print("subtraction:")
+print(c1-c2)
+print("intersection (taking positive minimums):")
+print(c1&c2)
+print('union (taking maximums):')
+print(c1 |c2)
